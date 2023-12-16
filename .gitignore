@@ -1,0 +1,19 @@
+# Ignore data
+data
+# Ignore ERGM
+ERGM
+# Ignore Misc
+Misc
+# Ignore .conda
+.conda/
+# Ignore .ipynb_checkpoints
+.ipynb_checkpoints
+# Ignore __pycache__
+*/__pycache__
+__pycache__/
+# Ignore .DS_Store
+.DS_Store
+*.pyc
+*.xlsx
+*.zip
+*.dylib
