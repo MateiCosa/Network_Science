@@ -1,0 +1,257 @@
+,to,from
+0,Ethiopia,China
+1,Ethiopia,"Tanzania, United Republic of"
+2,Ethiopia,Thailand
+3,Brazil,Ethiopia
+4,Brazil,Angola
+5,Brazil,Bulgaria
+6,Brazil,Portugal
+7,Brazil,Spain
+8,Ghana,Ethiopia
+9,Ghana,Pakistan
+10,Thailand,China
+11,Angola,Namibia
+12,Nigeria,Brazil
+13,Nigeria,Pakistan
+14,Nigeria,France
+15,Nigeria,South Africa
+16,Nigeria,Netherlands
+17,Nigeria,Spain
+18,Nigeria,United Kingdom
+19,Nigeria,Italy
+20,Nigeria,Belgium
+21,Nigeria,Germany
+22,Nigeria,Greece
+23,Nigeria,Austria
+24,Nigeria,Japan
+25,Nigeria,Gambia
+26,Nigeria,Turkey
+27,Nigeria,Thailand
+28,Nigeria,Philippines
+29,Nigeria,Czech Republic
+30,United Kingdom,Spain
+31,Spain,Argentina
+32,Spain,Mozambique
+33,Spain,Greece
+34,Spain,Portugal
+35,Spain,Belgium
+36,Spain,Netherlands
+37,Spain,St. Lucia
+38,Spain,Burundi
+39,Spain,Cambodia
+40,Spain,Malaysia
+41,Spain,Lithuania
+42,Spain,United Kingdom
+43,Spain,Switzerland
+44,Spain,Germany
+45,Spain,Italy
+46,Spain,Slovenia
+47,Spain,Romania
+48,Spain,Israel
+49,Spain,Monaco
+50,Spain,Czech Republic
+51,Spain,France
+52,Spain,Nigeria
+53,Spain,Austria
+54,Pakistan,Côte d'Ivoire
+55,Germany,Greece
+56,Germany,Czech Republic
+57,Germany,Italy
+58,Germany,Latvia
+59,Germany,Switzerland
+60,Germany,Croatia
+61,Germany,Netherlands
+62,Germany,Spain
+63,Germany,Belgium
+64,Germany,Turkey
+65,Germany,United Kingdom
+66,Germany,Japan
+67,Germany,France
+68,Germany,Sweden
+69,Germany,Russian Federation
+70,Germany,Luxembourg
+71,Germany,Ireland
+72,Germany,Nigeria
+73,Germany,Estonia
+74,Germany,Poland
+75,Belgium,Spain
+76,France,Germany
+77,France,Italy
+78,France,Spain
+79,France,Czech Republic
+80,France,Sweden
+81,France,Benin
+82,France,Portugal
+83,France,Egypt
+84,France,Romania
+85,France,Switzerland
+86,France,Netherlands
+87,France,United Kingdom
+88,France,Belgium
+89,France,Serbia
+90,France,Iraq
+91,France,Syrian Arab Republic
+92,France,Hong Kong
+93,France,Norway
+94,France,Greece
+95,France,Japan
+96,France,Ireland
+97,France,Cameroon
+98,France,Bulgaria
+99,France,Morocco
+100,France,Luxembourg
+101,France,Denmark
+102,France,Croatia
+103,Netherlands,Bulgaria
+104,Netherlands,Spain
+105,Austria,Hungary
+106,Cuba,Spain
+107,Cuba,France
+108,Cuba,Russian Federation
+109,Cuba,Switzerland
+110,Cuba,Netherlands
+111,Ecuador,Spain
+112,"Venezuela, Bolivarian Republic of",Spain
+113,"Venezuela, Bolivarian Republic of",Panama
+114,"Venezuela, Bolivarian Republic of",United Kingdom
+115,"Venezuela, Bolivarian Republic of",United States
+116,"Venezuela, Bolivarian Republic of",South Africa
+117,"Venezuela, Bolivarian Republic of",Italy
+118,"Venezuela, Bolivarian Republic of",Switzerland
+119,"Venezuela, Bolivarian Republic of",France
+120,"Venezuela, Bolivarian Republic of",Guatemala
+121,"Venezuela, Bolivarian Republic of",Thailand
+122,"Venezuela, Bolivarian Republic of",Namibia
+123,"Venezuela, Bolivarian Republic of",Germany
+124,"Venezuela, Bolivarian Republic of",Canada
+125,"Venezuela, Bolivarian Republic of",Netherlands
+126,"Venezuela, Bolivarian Republic of",Dominica
+127,"Venezuela, Bolivarian Republic of",Australia
+128,"Venezuela, Bolivarian Republic of",Brazil
+129,"Venezuela, Bolivarian Republic of",Nigeria
+130,"Venezuela, Bolivarian Republic of",Portugal
+131,"Venezuela, Bolivarian Republic of",Fiji
+132,"Venezuela, Bolivarian Republic of",Lithuania
+133,"Venezuela, Bolivarian Republic of",Belgium
+134,"Venezuela, Bolivarian Republic of",Mexico
+135,"Venezuela, Bolivarian Republic of",China
+136,"Venezuela, Bolivarian Republic of",Cape Verde
+137,"Venezuela, Bolivarian Republic of",Algeria
+138,"Venezuela, Bolivarian Republic of",New Zealand
+139,"Venezuela, Bolivarian Republic of",Jamaica
+140,"Venezuela, Bolivarian Republic of",Zimbabwe
+141,"Venezuela, Bolivarian Republic of",Hungary
+142,"Venezuela, Bolivarian Republic of",Ethiopia
+143,"Venezuela, Bolivarian Republic of",Bulgaria
+144,"Venezuela, Bolivarian Republic of",Lao People's Democratic Republic
+145,"Venezuela, Bolivarian Republic of",Philippines
+146,"Venezuela, Bolivarian Republic of",Puerto Rico
+147,"Venezuela, Bolivarian Republic of",Mozambique
+148,"Venezuela, Bolivarian Republic of",Viet Nam
+149,"Venezuela, Bolivarian Republic of",Morocco
+150,"Venezuela, Bolivarian Republic of","Iran, Islamic Republic of"
+151,"Venezuela, Bolivarian Republic of",Malaysia
+152,"Venezuela, Bolivarian Republic of",Uganda
+153,"Venezuela, Bolivarian Republic of",Cameroon
+154,"Venezuela, Bolivarian Republic of",Lebanon
+155,Colombia,China
+156,Colombia,Lebanon
+157,Colombia,Spain
+158,Costa Rica,Cuba
+159,Costa Rica,Spain
+160,Switzerland,Netherlands
+161,Switzerland,Spain
+162,Switzerland,Turkey
+163,Switzerland,Italy
+164,Switzerland,Greece
+165,Mexico,Portugal
+166,Mexico,Spain
+167,Dominican Republic,United States
+168,Dominican Republic,Canada
+169,Dominican Republic,France
+170,Dominican Republic,Belgium
+171,Dominican Republic,Spain
+172,Dominican Republic,Netherlands
+173,Dominican Republic,Puerto Rico
+174,Dominican Republic,Italy
+175,Dominican Republic,South Africa
+176,Dominican Republic,Bulgaria
+177,Dominican Republic,Romania
+178,Dominican Republic,Portugal
+179,United States,Bulgaria
+180,Peru,Argentina
+181,Peru,Portugal
+182,Peru,Spain
+183,Trinidad and Tobago,Saint Vincent and the Grenadines
+184,Trinidad and Tobago,Spain
+185,Guatemala,Spain
+186,Argentina,Spain
+187,Argentina,Netherlands
+188,Argentina,Portugal
+189,Argentina,South Africa
+190,Argentina,United Kingdom
+191,Argentina,Italy
+192,Argentina,Iceland
+193,Argentina,Turkey
+194,Argentina,China
+195,Argentina,Japan
+196,Argentina,France
+197,Argentina,Peru
+198,Argentina,Uruguay
+199,Argentina,Belgium
+200,Argentina,Lithuania
+201,Argentina,Ireland
+202,Argentina,Russian Federation
+203,Argentina,United States
+204,Argentina,Ukraine
+205,Argentina,Albania
+206,Argentina,Australia
+207,Argentina,Lao People's Democratic Republic
+208,Argentina,Switzerland
+209,Argentina,Chile
+210,Argentina,Malta
+211,Argentina,Mozambique
+212,Argentina,Lebanon
+213,Portugal,Spain
+214,Portugal,Netherlands
+215,Portugal,France
+216,Portugal,Switzerland
+217,Portugal,Guinea-Bissau
+218,Portugal,Côte d'Ivoire
+219,Portugal,Mali
+220,Portugal,Guinea
+221,Portugal,Italy
+222,Portugal,Belgium
+223,Portugal,St. Lucia
+224,Portugal,Cape Verde
+225,Portugal,Mozambique
+226,Paraguay,Argentina
+227,Paraguay,Spain
+228,"Bolivia, Plurinational State of",Argentina
+229,"Bolivia, Plurinational State of",Latvia
+230,"Bolivia, Plurinational State of",Portugal
+231,"Bolivia, Plurinational State of",Spain
+232,Uruguay,Spain
+233,Ukraine,Russian Federation
+234,Chile,Spain
+235,Mozambique,Spain
+236,French Guiana,France
+237,Panama,Spain
+238,Bulgaria,Denmark
+239,Bulgaria,Romania
+240,Morocco,Spain
+241,Malaysia,China
+242,Cameroon,Spain
+243,Hong Kong,"Korea, Republic of"
+244,Lebanon,Australia
+245,Suriname,Pakistan
+246,Poland,Belarus
+247,Romania,Bulgaria
+248,Guinea-Bissau,Portugal
+249,Senegal,Portugal
+250,Latvia,Russian Federation
+251,Grenada,Spain
+252,Nicaragua,Spain
+253,Sierra Leone,Spain
+254,Libyan Arab Jamahiriya,Spain
+255,El Salvador,Spain

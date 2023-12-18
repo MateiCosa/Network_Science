@@ -1,0 +1,10 @@
+dataset : 'cora'
+model : 'GAE'
+
+input_dim : 33 
+hidden1_dim : 16
+hidden2_dim : 8
+use_feature : True
+
+num_epochs : 20
+learning_rate : 0.01

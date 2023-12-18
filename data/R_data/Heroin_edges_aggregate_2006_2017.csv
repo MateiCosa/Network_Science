@@ -1,0 +1,510 @@
+,to,from
+0,Pakistan,Saudi Arabia
+1,Uzbekistan,Turkmenistan
+2,Kenya,Spain
+3,Russian Federation,Armenia
+4,Pakistan,Malawi
+5,Afghanistan,Spain
+6,Myanmar,Thailand
+7,Costa Rica,Spain
+8,Austria,Netherlands
+9,Ethiopia,"Congo, the Democratic Republic of the"
+10,Montenegro,Bosnia and Herzegovina
+11,India,Kenya
+12,"Venezuela, Bolivarian Republic of",China
+13,North Macedonia,Kosovo under UNSCR 1244
+14,Turkey,Austria
+15,Austria,Slovenia
+16,Netherlands,Italy
+17,India,Nigeria
+18,Cuba,Dominican Republic
+19,Pakistan,Qatar
+20,Germany,United States
+21,Syrian Arab Republic,Egypt
+22,"Iran, Islamic Republic of",United Arab Emirates
+23,Pakistan,Syrian Arab Republic
+24,Germany,Norway
+25,Kyrgyzstan,China
+26,Serbia,Austria
+27,Luxembourg,France
+28,Pakistan,Burundi
+29,United Arab Emirates,Austria
+30,Pakistan,Haiti
+31,Turkey,Armenia
+32,Ethiopia,Uganda
+33,Nepal,Canada
+34,France,Italy
+35,Netherlands,Spain
+36,South Africa,Spain
+37,Pakistan,Togo
+38,Hungary,Sweden
+39,Pakistan,Samoa
+40,Nigeria,Japan
+41,Pakistan,Cameroon
+42,Belgium,New Zealand
+43,Pakistan,Netherlands
+44,Bulgaria,Austria
+45,Armenia,France
+46,Madagascar,China
+47,Russian Federation,Ukraine
+48,France,Pakistan
+49,France,Spain
+50,Mali,Italy
+51,France,Côte d'Ivoire
+52,Belgium,Portugal
+53,India,Mozambique
+54,Greece,Italy
+55,"Venezuela, Bolivarian Republic of",Mexico
+56,Spain,Belgium
+57,Ukraine,Poland
+58,Bulgaria,Serbia
+59,Ecuador,Canada
+60,Uganda,Italy
+61,Austria,Spain
+62,Bulgaria,United Kingdom
+63,Italy,Romania
+64,Sweden,Bulgaria
+65,Pakistan,"Tanzania, United Republic of"
+66,Pakistan,Sierra Leone
+67,Afghanistan,Tajikistan
+68,Nepal,India
+69,Argentina,Austria
+70,Germany,Portugal
+71,Benin,United Arab Emirates
+72,India,Austria
+73,Kenya,Seychelles
+74,Uganda,Spain
+75,India,Viet Nam
+76,Bulgaria,Russian Federation
+77,Pakistan,Italy
+78,Albania,Croatia
+79,Bulgaria,Sweden
+80,Bulgaria,Lithuania
+81,"Taiwan, Province of China",New Zealand
+82,India,United Arab Emirates
+83,France,Mauritius
+84,Switzerland,Austria
+85,Germany,Belgium
+86,India,Nepal
+87,Pakistan,Turkey
+88,India,Canada
+89,Bulgaria,France
+90,United States,Portugal
+91,El Salvador,Mexico
+92,Pakistan,Spain
+93,India,United Kingdom
+94,Croatia,Austria
+95,Bulgaria,Czech Republic
+96,Pakistan,Ethiopia
+97,Ethiopia,Italy
+98,Latvia,Lithuania
+99,Bulgaria,Poland
+100,Netherlands,Germany
+101,Oman,United Arab Emirates
+102,Kosovo under UNSCR 1244,Bosnia and Herzegovina
+103,South Africa,Bahrain
+104,Uganda,Mauritius
+105,Panama,El Salvador
+106,Nigeria,United Kingdom
+107,Syrian Arab Republic,Sudan
+108,Turkmenistan,Uzbekistan
+109,Bulgaria,Switzerland
+110,Czech Republic,Austria
+111,Egypt,Sudan
+112,"Venezuela, Bolivarian Republic of",Spain
+113,United States,"Korea, Republic of"
+114,Italy,Spain
+115,Syrian Arab Republic,Jordan
+116,Pakistan,Mauritius
+117,North Macedonia,Austria
+118,"Iran, Islamic Republic of",Nigeria
+119,Belgium,Austria
+120,Pakistan,Indonesia
+121,"Tanzania, United Republic of",Italy
+122,Austria,Germany
+123,Austria,United States
+124,Madagascar,Italy
+125,Pakistan,Hungary
+126,United Arab Emirates,Ghana
+127,Spain,United Kingdom
+128,Ecuador,Mexico
+129,Bulgaria,Finland
+130,Belgium,Canada
+131,Netherlands,New Zealand
+132,"Iran, Islamic Republic of",Kazakhstan
+133,Serbia,Slovenia
+134,Nigeria,India
+135,Ecuador,Panama
+136,India,Malaysia
+137,Bulgaria,Romania
+138,"Tanzania, United Republic of",Spain
+139,Pakistan,Kuwait
+140,Russian Federation,Georgia
+141,Uzbekistan,Kazakhstan
+142,Netherlands,Portugal
+143,Bulgaria,Netherlands
+144,France,New Zealand
+145,Pakistan,"Congo, the Democratic Republic of the"
+146,Pakistan,Seychelles
+147,Ghana,Spain
+148,Bulgaria,Slovenia
+149,Colombia,El Salvador
+150,Germany,Canada
+151,Mozambique,South Africa
+152,France,Netherlands
+153,Pakistan,Germany
+154,Pakistan,United States
+155,Viet Nam,Pakistan
+156,Iraq,Germany
+157,Thailand,Switzerland
+158,Ecuador,Guatemala
+159,Kazakhstan,Uzbekistan
+160,Georgia,Netherlands
+161,"Bolivia, Plurinational State of",Spain
+162,Kazakhstan,Russian Federation
+163,Mozambique,Pakistan
+164,Italy,Dominican Republic
+165,Spain,India
+166,Mexico,Spain
+167,Panama,Colombia
+168,Kosovo under UNSCR 1244,Austria
+169,Pakistan,Uganda
+170,Pakistan,Thailand
+171,Turkey,Georgia
+172,Pakistan,Hong Kong
+173,United Arab Emirates,South Africa
+174,"Iran, Islamic Republic of",Austria
+175,India,Ghana
+176,Mali,Portugal
+177,Ethiopia,Rwanda
+178,Madagascar,Mauritius
+179,Ecuador,Chile
+180,India,Bangladesh
+181,Kazakhstan,Ukraine
+182,Russian Federation,Uzbekistan
+183,Bulgaria,Italy
+184,United Arab Emirates,Pakistan
+185,Germany,Greece
+186,Italy,Germany
+187,"Iran, Islamic Republic of",Armenia
+188,Pakistan,Senegal
+189,United Arab Emirates,Côte d'Ivoire
+190,Germany,Denmark
+191,Pakistan,Zambia
+192,North Macedonia,Switzerland
+193,Nigeria,Brazil
+194,Turkey,Serbia
+195,Ecuador,Dominica
+196,Pakistan,"Iran, Islamic Republic of"
+197,Ghana,Hungary
+198,Bulgaria,Spain
+199,United Kingdom,Pakistan
+200,Nigeria,Bangladesh
+201,Hong Kong,Ethiopia
+202,Pakistan,Portugal
+203,Turkey,Bulgaria
+204,Luxembourg,Germany
+205,United Arab Emirates,Serbia
+206,Bulgaria,North Macedonia
+207,Zambia,"Tanzania, United Republic of"
+208,Dominican Republic,Spain
+209,Croatia,Slovenia
+210,"Iran, Islamic Republic of",Russian Federation
+211,Ecuador,Estonia
+212,"Iran, Islamic Republic of",Sweden
+213,Cuba,Jamaica
+214,India,Liberia
+215,India,South Africa
+216,Pakistan,Angola
+217,Uzbekistan,Russian Federation
+218,Pakistan,Belgium
+219,Spain,Brazil
+220,Armenia,United States
+221,Pakistan,Kenya
+222,Netherlands,Austria
+223,Romania,Netherlands
+224,Serbia,Hungary
+225,Belgium,Ireland
+226,Ecuador,Australia
+227,Netherlands,Luxembourg
+228,Pakistan,Nigeria
+229,Thailand,Myanmar
+230,Tajikistan,Kazakhstan
+231,Australia,New Zealand
+232,Guatemala,Mexico
+233,"Venezuela, Bolivarian Republic of",Portugal
+234,Nigeria,Liberia
+235,Niger,Algeria
+236,India,Ethiopia
+237,Mexico,United States
+238,Canada,New Zealand
+239,United States,New Zealand
+240,India,Eswatini
+241,Denmark,New Zealand
+242,Ecuador,Russian Federation
+243,Bulgaria,Hungary
+244,Bahrain,Spain
+245,India,Maldives
+246,United Arab Emirates,China
+247,Nigeria,Pakistan
+248,Ethiopia,Nigeria
+249,India,Australia
+250,Ecuador,France
+251,Latvia,Uzbekistan
+252,Bulgaria,Tajikistan
+253,United Arab Emirates,Afghanistan
+254,Montenegro,Serbia
+255,Austria,Luxembourg
+256,Kenya,Egypt
+257,Belarus,Latvia
+258,Italy,Nigeria
+259,Saudi Arabia,Nigeria
+260,Lithuania,Russian Federation
+261,United Arab Emirates,Malaysia
+262,China,Hong Kong
+263,Bulgaria,Albania
+264,Ecuador,China
+265,India,Mauritius
+266,Sweden,Norway
+267,Belarus,Lithuania
+268,Thailand,Australia
+269,United Arab Emirates,Hong Kong
+270,India,Hungary
+271,Croatia,Iraq
+272,Pakistan,Singapore
+273,France,United States
+274,"Iran, Islamic Republic of",Romania
+275,Spain,Côte d'Ivoire
+276,Turkey,Romania
+277,Dominican Republic,United States
+278,Pakistan,Austria
+279,Ecuador,Colombia
+280,Spain,Ethiopia
+281,Kyrgyzstan,Kazakhstan
+282,Bulgaria,Kosovo under UNSCR 1244
+283,"Tanzania, United Republic of",Nigeria
+284,Pakistan,Viet Nam
+285,Pakistan,Cyprus
+286,Pakistan,Cambodia
+287,India,China
+288,India,Kuwait
+289,Pakistan,United Arab Emirates
+290,Pakistan,Sri Lanka
+291,Togo,Italy
+292,Pakistan,Nepal
+293,Pakistan,Canada
+294,Libyan Arab Jamahiriya,Malta
+295,Spain,Australia
+296,Pakistan,United Kingdom
+297,Tajikistan,Russian Federation
+298,India,Norway
+299,Ghana,Italy
+300,Turkey,Bosnia and Herzegovina
+301,Germany,Austria
+302,Pakistan,Oman
+303,Thailand,China
+304,Togo,Spain
+305,Nigeria,Congo
+306,Pakistan,Guinea
+307,Italy,Austria
+308,India,Hong Kong
+309,North Macedonia,Bulgaria
+310,Nigeria,Afghanistan
+311,Ecuador,Netherlands
+312,Pakistan,Mali
+313,Spain,Hungary
+314,Nigeria,Malaysia
+315,Uganda,Czech Republic
+316,Belgium,Sweden
+317,United Arab Emirates,"Tanzania, United Republic of"
+318,Turkey,Italy
+319,Germany,Australia
+320,Tajikistan,China
+321,Spain,France
+322,Pakistan,Bahrain
+323,Germany,United Kingdom
+324,Austria,Switzerland
+325,Pakistan,Greece
+326,United Arab Emirates,Paraguay
+327,Bulgaria,Bosnia and Herzegovina
+328,Kenya,"Tanzania, United Republic of"
+329,Bulgaria,Belgium
+330,Pakistan,India
+331,Pakistan,Denmark
+332,Germany,Bulgaria
+333,India,Zambia
+334,Sudan,Egypt
+335,Guatemala,Russian Federation
+336,Turkey,Spain
+337,Dominican Republic,Puerto Rico
+338,Azerbaijan,Germany
+339,Ethiopia,Mali
+340,Philippines,Italy
+341,Germany,Sweden
+342,India,Netherlands
+343,Pakistan,Zimbabwe
+344,Romania,Germany
+345,Slovenia,Austria
+346,India,Portugal
+347,Italy,Sweden
+348,"Venezuela, Bolivarian Republic of",United States
+349,United Arab Emirates,Spain
+350,Germany,France
+351,Turkmenistan,"Iran, Islamic Republic of"
+352,Kosovo under UNSCR 1244,Serbia
+353,Pakistan,Switzerland
+354,Malaysia,China
+355,Pakistan,Réunion
+356,Kyrgyzstan,Russian Federation
+357,United Arab Emirates,Ethiopia
+358,Albania,Italy
+359,Spain,Uganda
+360,Afghanistan,Pakistan
+361,Germany,Congo
+362,Armenia,Canada
+363,Denmark,Sweden
+364,Qatar,Spain
+365,Ethiopia,Zimbabwe
+366,Ecuador,Spain
+367,France,Benin
+368,"Iran, Islamic Republic of",Bulgaria
+369,Russian Federation,Tajikistan
+370,Uganda,Ghana
+371,Bangladesh,Myanmar
+372,Germany,Switzerland
+373,Spain,Finland
+374,Russian Federation,"Moldova, Republic of"
+375,India,Italy
+376,Kenya,Morocco
+377,Ecuador,El Salvador
+378,Ukraine,Russian Federation
+379,Pakistan,Ireland
+380,South Africa,Pakistan
+381,"Iran, Islamic Republic of",Azerbaijan
+382,El Salvador,United States
+383,Ghana,Germany
+384,Switzerland,Italy
+385,Argentina,Spain
+386,Spain,Netherlands
+387,Pakistan,Ghana
+388,United Arab Emirates,Indonesia
+389,Slovenia,France
+390,India,Spain
+391,Kenya,Mauritius
+392,Spain,Portugal
+393,Pakistan,Bangladesh
+394,"Tanzania, United Republic of",Egypt
+395,Belgium,Netherlands
+396,Nigeria,Italy
+397,El Salvador,Honduras
+398,Nigeria,South Africa
+399,Azerbaijan,Belgium
+400,Slovakia,Austria
+401,Switzerland,Spain
+402,Pakistan,Faroe Islands
+403,Pakistan,Kazakhstan
+404,Nigeria,Turkey
+405,Nepal,United States
+406,Turkey,Germany
+407,Pakistan,Lesotho
+408,Thailand,Spain
+409,Pakistan,Benin
+410,Afghanistan,Azerbaijan
+411,France,Armenia
+412,Germany,Netherlands
+413,France,Canada
+414,Greece,Spain
+415,Pakistan,Guernsey
+416,Bulgaria,Croatia
+417,Ecuador,Dominican Republic
+418,Lithuania,Bulgaria
+419,Lithuania,Uzbekistan
+420,Syrian Arab Republic,Lebanon
+421,United Arab Emirates,Germany
+422,South Africa,Mauritius
+423,United Arab Emirates,United States
+424,Netherlands,Russian Federation
+425,Finland,Armenia
+426,Pakistan,Mozambique
+427,Colombia,"Venezuela, Bolivarian Republic of"
+428,Spain,Italy
+429,Uruguay,Romania
+430,Pakistan,South Africa
+431,Bulgaria,Germany
+432,Belgium,Italy
+433,India,Sri Lanka
+434,France,Russian Federation
+435,Germany,Montenegro
+436,Ethiopia,"Tanzania, United Republic of"
+437,Kosovo under UNSCR 1244,Romania
+438,Ecuador,United States
+439,Bulgaria,Greece
+440,Pakistan,"Taiwan, Province of China"
+441,Pakistan,Philippines
+442,"Tanzania, United Republic of",Ghana
+443,Russian Federation,Belarus
+444,Pakistan,Côte d'Ivoire
+445,Malaysia,Italy
+446,Madagascar,Ghana
+447,Belgium,Spain
+448,Greece,Bulgaria
+449,Germany,Italy
+450,Pakistan,Papua New Guinea
+451,France,China
+452,Malaysia,Pakistan
+453,Pakistan,Maldives
+454,Pakistan,Iceland
+455,Malaysia,Spain
+456,Ghana,Nigeria
+457,United Arab Emirates,"Iran, Islamic Republic of"
+458,Germany,Turkey
+459,Tajikistan,Uzbekistan
+460,"Venezuela, Bolivarian Republic of",Dominica
+461,India,United States
+462,Germany,Spain
+463,Pakistan,Australia
+464,Pakistan,"Korea, Democratic People's Republic of"
+465,India,Greece
+466,Indonesia,Portugal
+467,"Taiwan, Province of China","Korea, Republic of"
+468,United Kingdom,New Zealand
+469,Austria,Czech Republic
+470,Pakistan,Isle of Man
+471,Pakistan,Bulgaria
+472,India,Denmark
+473,Iraq,Bulgaria
+474,Kenya,Portugal
+475,Maldives,Sri Lanka
+476,Turkey,Nigeria
+477,Guatemala,El Salvador
+478,Nigeria,United States
+479,Thailand,United States
+480,Uruguay,Spain
+481,Canada,Pakistan
+482,"Iran, Islamic Republic of",Italy
+483,Pakistan,France
+484,United Arab Emirates,Japan
+485,United Arab Emirates,Nigeria
+486,South Africa,Zambia
+487,Pakistan,Azerbaijan
+488,Turkey,Kazakhstan
+489,Nigeria,Thailand
+490,Pakistan,Ukraine
+491,Azerbaijan,Russian Federation
+492,"Venezuela, Bolivarian Republic of",Trinidad and Tobago
+493,Pakistan,China
+494,India,New Zealand
+495,Armenia,Georgia
+496,Burundi,Italy
+497,Pakistan,Poland
+498,Kenya,Italy
+499,Afghanistan,Italy
+500,Azerbaijan,Ukraine
+501,Kyrgyzstan,Uzbekistan
+502,Hungary,Austria
+503,Pakistan,Malaysia
+504,Czech Republic,Denmark
+505,Belgium,Germany
+506,Burundi,Spain
+507,Portugal,Spain
+508,Honduras,Guatemala
