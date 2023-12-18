@@ -4,7 +4,10 @@ import networkx as nx
 import Seizures
 import Aggregation
 
-def get_drug_prices(file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/Drug_prices.xlsx', drug_list = ['Cocaine', 'Heroin'], 
+import warnings
+warnings.filterwarnings('ignore')
+
+def get_drug_prices(file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/sources/Drug_prices.xlsx', drug_list = ['Cocaine', 'Heroin'], 
                     countries_list = None, sub_region_dict = None, region_dict = None, 
                     start_year = 2006, end_year = 2017):
     '''
@@ -192,7 +195,7 @@ def get_drug_prices(file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/
     # Return output_df
     return output_df
 
-def get_gdp_per_capita(countries_list, file = "/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/GDP_per_capita.xlsx", 
+def get_gdp_per_capita(countries_list, file = "/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/sources/GDP_per_capita.xlsx", 
                        start_year = 2006, end_year = 2017):
     '''
     Parameters
@@ -230,7 +233,7 @@ def get_gdp_per_capita(countries_list, file = "/Users/mateicosa/Bocconi/BIDSA/Ne
     # Return output_df
     return output_df
 
-def get_coordinates(countries_list, file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/countries.csv'):
+def get_coordinates(countries_list, file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/sources/countries.csv'):
     '''
     Parameters
     ----------
@@ -296,7 +299,7 @@ def get_coordinates(countries_list, file = '/Users/mateicosa/Bocconi/BIDSA/Netwo
     # Return the output
     return df_coord
 
-def get_social_indicators(countries_list, file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/Governance_Indicators.xlsx', start_year = 2006, end_year = 2017):
+def get_social_indicators(countries_list, file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/sources/Governance_Indicators.xlsx', start_year = 2006, end_year = 2017):
     '''
     Parameters
     ----------
@@ -444,7 +447,8 @@ def aggregate_yearly_edges(G, start_year = 2006, end_year = 2017):
     return list(edge_set)
 
 def get_network_data(drug, df_ids = None,  
-                     for_pyg = True, for_r = False,
+                     for_pyg = True, for_R = True,
+                     aggregate_over_time_period = True,
                      write_to_file = True, 
                      base_file_path = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/',
                      start_year = 2006, end_year = 2017):
@@ -454,7 +458,7 @@ def get_network_data(drug, df_ids = None,
     drug : str
     df_ids : dict of pd.DataFrames
     for_pyg : bool, optional (pytorch_geometric format)
-    for_r : bool, optionl (R format)
+    for_R : bool, optionl (R format)
     base_file_path : str, optional
     start_year : int, optional
     end_year : int, optional
@@ -463,6 +467,12 @@ def get_network_data(drug, df_ids = None,
     output_networl : nx.DiGraph
         Returns a directed graph containing the aggregated data and optionally writes to a .gml file
     '''
+    
+    # Checks
+    if not for_pyg and not for_R:
+        raise Exception("The data must be prepared either for pyg or for R!")
+    if start_year < 2006 or end_year > 2017:
+        raise Exception("Data is available only for period 2006-2017!")
 
     # If no IDS data is not loaded, read it
     if df_ids is None:
@@ -474,34 +484,94 @@ def get_network_data(drug, df_ids = None,
     
     # Get the edge data
     dict_of_nets = Seizures.get_drug_network_by_year(drug, df_ids, start_year = start_year, end_year= end_year)
-    edge_list = aggregate_yearly_edges(dict_of_nets, start_year = start_year, end_year = end_year)
+    aggregate_edge_list = aggregate_yearly_edges(dict_of_nets, start_year = start_year, end_year = end_year)
     
     # Add the features
     for year in range(start_year, end_year + 1):
         nx.set_node_attributes(dict_of_nets[year], df_aggregate[year])
 
+    # Create output container
+    output = dict()
+
     if for_pyg:
-        # Construct a new network
-        output_network = nx.DiGraph()
-        node_list = list()
-        # Preproccesing: one-hot encoding plus dropping 'ISO' column
-        df_features = pd.get_dummies(df_aggregate['total'], columns = ['Sub_Region', 'Region'], dtype = float).drop(columns = ['ISO'])
-        # Add the node with attributes in pytorch convention: y is the country name, x is a list of features
-        for index, row in df_features.iterrows():
-            node_list.append((row['Country'], {'y': row['Country'], 'x': list(row[1:])})) 
-        output_network.add_nodes_from(node_list)
-        output_network.add_edges_from(edge_list)
 
-        # Write the output
-        if write_to_file:
+        #Create output subcontainer
+        output['pyg'] = dict()
+        # Create a list of the networks we are interested in
+        period = list(range(start_year, end_year + 1))
+        # Potentially add agggregate data
+        if aggregate_over_time_period:
+            period.append('total')
+
+        # Iterate over the time period
+        for net in period:
+            # Construct a new network
+            output_network = nx.DiGraph()
+            node_list = list()
+            # Preproccesing: one-hot encoding plus dropping 'ISO' column
+            df_features = pd.get_dummies(df_aggregate[net], columns = ['Sub_Region', 'Region'], dtype = float).drop(columns = ['ISO'])
+            # Add the node with attributes in pytorch convention: y is the country name, x is a list of features
+            for index, row in df_features.iterrows():
+                node_list.append((row['Country'], {'y': row['Country'], 'x': list(row[1:])})) 
+            output_network.add_nodes_from(node_list)
+            if net == 'total':
+                output_network.add_edges_from(aggregate_edge_list)
+            else:
+                output_network.add_edges_from(dict_of_nets[net].edges)
             
-            # Create the path
-            write_file_path = base_file_path + 'pyg_aggregate' + '.gml'
+            # Add the network to output
+            output['pyg'][net] = output_network
 
-            # Write to the given path in gml format
-            nx.write_gml(output_network, write_file_path)
+            # Write the output
+            if write_to_file:
+                
+                # Create the path
+                if net == 'total':
+                    write_file_path = base_file_path + 'pyg_data/' + f'{drug}' + '_aggregate' + f'_{start_year}_{end_year}' + '.gml'
+                else:
+                    write_file_path = base_file_path + 'pyg_data/' + f'{drug}' + f'_{net}' + '.gml'
+
+                # Write to the given path in gml format
+                nx.write_gml(output_network, write_file_path)
         
-        else:
-            raise(NotImplementedError)
+    if for_R == True:
+
+        #Create output subcontainer
+        output['R'] = dict()
+        # Create a list of the networks we are interested in
+        period = list(range(start_year, end_year + 1))
+        # Potentially add agggregate data
+        if aggregate_over_time_period:
+            period.append('total')
+
+        for net in period:
+
+            # Get the node features
+            nodes_df = df_aggregate[net]
+
+            # Get the edges
+            if net == 'total':
+                edges_df = pd.DataFrame(aggregate_edge_list, columns = ['to', 'from'])
+            else:
+                edges_df = pd.DataFrame(dict_of_nets[net].edges, columns = ['to', 'from'])
+
+            # Add the datasets to the output
+            output['R'][f'nodes_{net}'] = nodes_df
+            output['R'][f'edges_{net}'] = edges_df
             
-    return output_network
+            # Write the output
+            if write_to_file:
+                
+                # Create the path
+                if net == 'total':
+                    write_file_path_nodes = base_file_path + 'R_data/' + f'{drug}' + '_nodes' +  '_aggregate' + f'_{start_year}_{end_year}' + '.csv'
+                    write_file_path_edges = base_file_path + 'R_data/' + f'{drug}' + '_edges' +  '_aggregate' + f'_{start_year}_{end_year}' + '.csv'
+                else:
+                    write_file_path_nodes = base_file_path + 'R_data/' + f'{drug}' + '_nodes' + f'_{net}' + '.csv'
+                    write_file_path_edges = base_file_path + 'R_data/' + f'{drug}' + '_edges' + f'_{net}' + '.csv'
+
+                # Write to the given path in .csv format
+                nodes_df.to_csv(write_file_path_nodes)
+                edges_df.to_csv(write_file_path_edges)
+            
+    return output

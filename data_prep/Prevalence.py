@@ -33,7 +33,7 @@ def get_drug_types(initial_values = False):
         output = ['Cocaine', 'Opioids', 'Amphetamines', 'Ecstasy', 'Cannabis']
     return output
 
-def prepare_data(file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/Drug_prevalence.xlsx'):
+def prepare_data(file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/sources/Drug_prevalence.xlsx'):
     '''
     Parameters
     ----------
@@ -388,7 +388,7 @@ def get_prevalence_values(df_prev, countries_list = None, sub_regions_dict = Non
     # Return output_df
     return output_df
 
-def write_to_xlsx(output, target_file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/Prevalence.xlsx'):
+def write_to_xlsx(output, target_file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/sources/Prevalence.xlsx'):
     '''
     Parameters
     ----------

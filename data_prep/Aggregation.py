@@ -22,13 +22,13 @@ def get_drug_users(drug, countries_list, start_year = 2006, end_year = 2017):
     '''
     
     # Read the population data
-    xlsx = pd.ExcelFile('/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/Population.xlsx')
+    xlsx = pd.ExcelFile('/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/sources/Population.xlsx')
     df_pop = dict()
     for year in range(start_year, end_year + 1):
         df_pop[year] = pd.read_excel(xlsx, str(year))
     
     # Read the prevalence data
-    xlsx = pd.ExcelFile('/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/Prevalence.xlsx')
+    xlsx = pd.ExcelFile('/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/sources/Prevalence.xlsx')
     df_prev = dict()
     for year in range(start_year, end_year + 1):
         df_prev[year] = pd.read_excel(xlsx, str(year))
@@ -63,7 +63,7 @@ def get_yearly_consumption(drug, drug_users_dict, start_year = 2006, end_year = 
         Returns the yearly consumption of the drug in every year.
     '''
     # Import the production data
-    prod_df = pd.read_excel('/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/Production.xlsx')
+    prod_df = pd.read_excel('/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/sources/Production.xlsx')
 
     # Container for yearly consumption per user
     consumption_dict = dict()
@@ -99,7 +99,7 @@ def get_national_markets_df(countries_list, sub_region_dict, region_dict, df_ids
     
     if from_file:
         # Read the seziures data for the given time period
-        xlsx = pd.ExcelFile('/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/Seizures.xlsx')
+        xlsx = pd.ExcelFile('/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/sources/Seizures.xlsx')
         df_seiz = dict()
         for year in range(start_year, end_year + 1):
             df_seiz[year] = pd.read_excel(xlsx, str(year))
@@ -113,13 +113,13 @@ def get_national_markets_df(countries_list, sub_region_dict, region_dict, df_ids
                                                         drug_list = drug_list)
         
     # Read the prevalence data for the given time period
-    xlsx = pd.ExcelFile('/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/Prevalence.xlsx')
+    xlsx = pd.ExcelFile('/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/sources/Prevalence.xlsx')
     df_prev = dict()
     for year in range(start_year, end_year + 1):
         df_prev[year] = pd.read_excel(xlsx, str(year))
     
     # Read the population data for the given time period
-    xlsx = pd.ExcelFile('/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/Population.xlsx')
+    xlsx = pd.ExcelFile('/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/sources/Population.xlsx')
     df_pop = dict()
     for year in range(start_year, end_year + 1):
         df_pop[year] = pd.read_excel(xlsx, str(year))
@@ -175,7 +175,7 @@ def get_national_markets_df(countries_list, sub_region_dict, region_dict, df_ids
     # Return the output
     return df_markets
 
-def write_to_xlsx(output, target_file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/Markets.xlsx'):
+def write_to_xlsx(output, target_file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/sources/Markets.xlsx'):
     '''
     Parameters
     ----------

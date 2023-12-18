@@ -16,7 +16,7 @@ drug_name_change = {
                     '“Ecstasy”-type substances': 'Ecstasy'
                    }
 
-def prepare_data(file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/Drug_Purities.xlsx'):
+def prepare_data(file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/sources/Drug_Purities.xlsx'):
     '''
     Parameters
     ----------
@@ -339,7 +339,7 @@ def get_purity_values(df_pure, locations = None, sub_region_dict = None, region_
     # Return output_df
     return output_df
     
-def write_to_xlsx(output, target_file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/Purity.xlsx'):
+def write_to_xlsx(output, target_file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/sources/Purity.xlsx'):
     '''
     Parameters
     ----------

@@ -169,7 +169,7 @@ def get_population(start_year = 2006, end_year = 2017,
     # Return the output
     return pop_df
 
-def write_to_xlsx(output, target_file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/Population.xlsx'):
+def write_to_xlsx(output, target_file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/sources/Population.xlsx'):
     '''
     Parameters
     ----------

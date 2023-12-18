@@ -1,7 +1,9 @@
-# Ignore data
-data
-# Ignore ERGM
+# Ignore data sources
+data/sources
+# Ignore ERGM for now
 ERGM
+# Ignore GNN for now
+GNN
 # Ignore Misc
 Misc
 # Ignore .conda
@@ -11,7 +13,6 @@ Misc
 # Ignore __pycache__
 */__pycache__
 __pycache__/
-# Ignore .DS_Store
 .DS_Store
 *.pyc
 *.xlsx

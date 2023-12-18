@@ -9,7 +9,7 @@ import pandas as pd
 import networkx as nx
 from Quantity_Conversion import convert
 
-def read_xlsx(file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/IDS_Report.xlsx', start_year = 2006, end_year = 2017): 
+def read_xlsx(file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/sources/IDS_Report.xlsx', start_year = 2006, end_year = 2017): 
     '''
     Parameters
     ----------
@@ -301,7 +301,7 @@ def get_drug_selector_function(drug_name):
           
 def get_purity_adjusted_seizures(df_ids, countries_list = None, sub_region_dict = None, region_dict = None, 
                                  drug_list = ['Cocaine', 'Heroin', 'Cannabis', 'Amphetamine', 'Ecstasy'], 
-                                 purity_file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/Purity.xlsx', 
+                                 purity_file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/sources/Purity.xlsx', 
                                  start_year = 2006, end_year = 2017):
     '''
     Parameters
@@ -376,7 +376,7 @@ def get_purity_adjusted_seizures(df_ids, countries_list = None, sub_region_dict 
     # Return the data
     return output_df
 
-def write_to_xlsx(output, target_file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/Seizures.xlsx'):
+def write_to_xlsx(output, target_file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/sources/Seizures.xlsx'):
     '''
     Parameters
     ----------
@@ -412,7 +412,7 @@ def get_relative_weights(network):
         network[prev][curr]['relative_weight'] = network[prev][curr]['weight'] / d[curr]
     return network
 
-def get_market_values(network, year, drug, file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/Markets.xlsx'):
+def get_market_values(network, year, drug, file = '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/sources/Markets.xlsx'):
     '''
     Parameters
     ----------
