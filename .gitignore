@@ -3,7 +3,7 @@ data/sources
 # Ignore ERGM for now
 ERGM
 # Ignore GNN for now
-GNN
+GNN/code/results.ipynb
 # Ignore Misc
 Misc
 # Ignore .conda

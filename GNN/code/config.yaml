@@ -1,0 +1,9 @@
+data_path : '/Users/mateicosa/Bocconi/BIDSA/Network_Science/data/pyg_data'
+log_to : '/Users/mateicosa/Bocconi/BIDSA/Network_Science/GNN/code/logs'
+
+input_dim : 33 
+hidden1_dim : 32
+hidden2_dim : 16
+
+num_epochs : 20
+learning_rate : 0.01
